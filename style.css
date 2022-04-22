@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #e0e8ff!Important;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Helvetica";
+    
+}
+
+.main{
+    width: 450px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top{
+    background-image: url(images/illustration-hero.svg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 450px;
+    height: 220px;
+    border-radius: 20px 20px 0 0;
+}
+
+.bottom{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    border-radius: 0 0 20px 20px;
+
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px 0;
+    color: #1F2F56;
+}
+
+p{
+    margin: 0;
+    padding: 10px;
+    color: #7280A7;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f8f9fe;
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    place-items: center;
+    
+}
+
+.info p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0; 
+    margin: 0;
+}
+
+.info a{
+    text-decoration: underline;
+}
+
+.info a:hover{
+    text-decoration: none;
+}
+
+.songname{
+    color: #1F2F56;
+    font-weight: 600;
+    text-align: left;
+}
+
+.price{
+    color: #7280A7;
+    text-align: left;
+}
+
+.paybutton{
+    background-color: #362ae2;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    width: 100%;
+    border: 0;
+    border-radius: 20px;
+    margin: 20px 0;
+    padding: 20px 0;
+    box-shadow: 0 10px 10px #dcd6f8;
+}
+
+.paybutton:hover{
+    background-color: #766cf1;
+    cursor: pointer;
+}
+
+.cancleorder{
+    color: #a5a9b5;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cancleorder:hover{
+    color: #232c4d;
+    cursor: pointer;
+}
